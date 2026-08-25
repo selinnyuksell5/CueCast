@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# build / next
+.next/
+out/
+build/
+dist/
+
+# electron
+*.exe
+*.AppImage
+*.dmg
+*.blockmap
+
+# env / secrets
+.env
+.env*.local
+
+# debug / logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# typescript
+next-env.d.ts
+*.tsbuildinfo
